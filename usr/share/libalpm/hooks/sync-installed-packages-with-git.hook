@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+When = PostTransaction
+Exec = /bin/sh -c '/usr/bin/pacman -Qqen > $HOME/.dotfiles/packages.arch; /usr/bin/pacman -Qqem > %HOME/.dotfiles/packages_aur.arch'
