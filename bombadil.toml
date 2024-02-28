@@ -1,0 +1,19 @@
+dotfiles_dir = ".dotfiles"
+
+[settings]
+vars = ["theme.toml", "vars.toml"]
+
+[settings.dots]
+alacritty = { source = "alacritty", target = ".config/alacritty" }
+git = { source = "git", target = ".config/git" }
+i3 = { source = "i3", target = ".config/i3" }
+neofetch = { source = "neofetch", target = ".config/neofetch" }
+neovim = { source = "nvim", target = ".config/nvim/lua/custom" }
+picom = { source = "picom", target = ".config/picom" }
+polybar = { source = "polybar", target = ".config/polybar" }
+rofi = { source = "rofi", target = ".config/rofi" }
+zsh = { source = "zsh", target = ".config/zsh" }
+
+xinitrc = { source = ".xinitrc", target = ".xinitrc" }
+xserverrc = { source = ".xserverrc", target = ".xserverrc"}
+zshenv = { source = ".zshenv", target = ".zshenv" }
