@@ -1,0 +1,23 @@
+[colors.primary]
+background = "{{base00}}"
+foreground = "{{base05}}"
+
+[colors.cursor]
+text = "{{base00}}"
+cursor = "{{base05}}"
+
+[colors.normal]
+black = "{{base00}}"
+red = "{{base08}}"
+green = "{{base0B}}"
+yellow = "{{base0A}}"
+blue = "{{base0D}}"
+magenta = "{{base0E}}"
+cyan = "{{base0C}}"
+white = "{{base05}}"
+
+[font.normal]
+family = "{{font}}" 
+
+[window]
+opacity = 0.5
