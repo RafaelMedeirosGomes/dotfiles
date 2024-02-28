@@ -1,0 +1,3 @@
+ZDOTDIR=$HOME/.config/zsh
+ZFUNCDIR=$ZDOTDIR/functions
+ZPLUGDIR=$ZDOTDIR/plugins

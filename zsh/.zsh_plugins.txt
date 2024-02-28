@@ -1,0 +1,16 @@
+$ZPLUGDIR path:p10k-instant-prompt
+romkatv/powerlevel10k
+
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+
+ohmyzsh/ohmyzsh path:lib/completion.zsh
+ohmyzsh/ohmyzsh path:lib/history.zsh
+ohmyzsh/ohmyzsh path:lib/key-bindings.zsh
+
+mattmc3/zfunctions
+
+belak/zsh-utils path:completion
+belak/zsh-utils path:history
+belak/zsh-utils path:utility
